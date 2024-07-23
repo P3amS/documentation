@@ -54,7 +54,8 @@ PATH=/sbin:/bin:/usr/sbin:/usr/bin
 MAILTO=root
 # 지정된 각 작업에 대해 기본 45분 지연 시간은 0-45분 증가합니다.
 RANDOM_DELAY=45
-# 근무 시간 범위를 지정합니다. 여기에는 3:00 ~ 22:00이 표시됩니다. START_HOURS_RANGE=3-22
+# 근무 시간 범위를 지정합니다. 여기에는 3:00 ~ 22:00이 표시됩니다.
+START_HOURS_RANGE=3-22
 # 기간(일) 지연(분) job-identifier 명령
 # 매일 부팅하여 /etc/cron.daily 디렉토리의 파일이 5분 안에 실행되는지 확인하고, 오늘 실행되지 않으면 다음으로 실행합니다. 1 5 cron.daily nice run-parts /etc/cron.daily
 # 부팅 후 /etc/cron.weekly 디렉토리 파일 검사를 25분 이내에 7일마다 실행하고, 1주일 이내에 실행하지 않으면 다음에 실행
